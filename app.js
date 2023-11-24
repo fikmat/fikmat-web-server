@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Fikmat web server listening on port ${port}`)
 });
 
 app.post('/api/data/set/:game', (req, res) => {
